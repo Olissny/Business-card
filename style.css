@@ -16,17 +16,17 @@ body {
 }
 
 img {
-  width: 165px;
-  height: 275px;
-  object-fit: cover;
-  border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
   
 }
 
 .flip-card {
   background-color: transparent;
-  width: 165px;
-  height: 275px;
+  width: 300px;
+  height: 500px;
   border-radius: 20px;
   box-shadow: 20px 20px 25px  rgb(52, 94, 178, 0.3); 
 }
