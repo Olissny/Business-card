@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #bdd0e5;
+}
+
+img {
+  width: 165px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 20px;
+  
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 165px;
+  height: 275px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 25px  rgb(52, 94, 178, 0.3); 
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 20px;
+}
+
+
+.flip-card-back {
+  background-color: #7b9cc6;
+  color: #f2f2f3;
+  border-radius: 20px;
+  transform: rotateY(180deg);
+    
+}
+
+.profile-pic {
+  width: 65px;
+  height: 65px;
+  margin: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+hr {
+  width: 55%;
+  margin-bottom: 5px;
+  border: 1px solid white;
+}
+
+.flip-card-back a {
+  color: #6870b1;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 200;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  text-align: center; 
+  margin-top: 10px;
+}
+
+a {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 15px;
+  padding: 15px;
+  margin: 20px;
+  color: #034fc9 !important;
+  
+}
+a:visited {
+  color: #034fc9 !important; 
+}
+
+.logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+
+
+
